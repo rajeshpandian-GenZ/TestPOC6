@@ -18,9 +18,7 @@ jobs:
           architecture: x64 # (x64 or x86) - defaults to x64
       - uses: expo/expo-github-action@v5
         with:
-          expo-version: 6.x
-          expo-username: ${{ secrets.EXPO_CLI_USERNAME }}
-          expo-password: ${{ secrets.EXPO_CLI_PASSWORD }}
+          expo-version: 9.x
       - name: Install deps
         run: yarn install --ignore-engines
       - name: Set right permission
