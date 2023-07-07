@@ -26,4 +26,4 @@ jobs:
       - name: Install deps
         run: npm install -g eas-cli       
       - name: Build Android APK Bundle
-        run: ./android/gradlew assembleRelease  
+        run: ./gradlew assembleRelease  
